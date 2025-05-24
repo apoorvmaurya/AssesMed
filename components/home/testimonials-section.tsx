@@ -74,7 +74,7 @@ export function TestimonialsSection() {
               What Our Users Say
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Hear from individuals who have experienced the benefits of AssessMed's predictive capabilities.
+              Hear from individuals who have experienced the benefits of AssessMed&apos;s predictive capabilities.
             </p>
           </div>
         </div>

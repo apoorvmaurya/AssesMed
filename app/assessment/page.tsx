@@ -460,7 +460,7 @@ export default function AssessmentPage() {
                               <Input placeholder="List medications separated by commas" {...field} />
                             </FormControl>
                             <FormDescription>
-                              If none, leave blank or write "None"
+                              If none, leave blank
                             </FormDescription>
                             <FormMessage />
                           </FormItem>
