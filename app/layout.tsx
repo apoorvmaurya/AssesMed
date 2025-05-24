@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -27,6 +28,7 @@ export default function RootLayout({
             <div className="flex min-h-screen flex-col bg-background">
               <NavBar />
               <main className="flex-1">{children}</main>
+              <SpeedInsights />
               <Footer />
             </div>
             <Toaster />
