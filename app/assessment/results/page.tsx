@@ -248,7 +248,7 @@ export default function AssessmentResultsPage() {
                           style={{
                             background: index === 0 ? 'hsl(var(--muted))' : '',
                             '--tw-bg-opacity': index === 0 ? 1 : 0.5
-                          }} 
+                          } as React.CSSProperties}
                         />
                         {index === 0 && (
                           <p className="text-sm text-muted-foreground mt-1">
@@ -372,7 +372,10 @@ export default function AssessmentResultsPage() {
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis type="number" domain={[0, 1]} tickFormatter={(tick) => `${(tick * 100).toFixed(0)}%`} />
                             <YAxis dataKey="symptom" type="category" />
-                            <Tooltip formatter={(value) => `${(value * 100).toFixed(0)}%`} />
+                            <Tooltip formatter={(value) => {
+                              const num = typeof value === "number" ? value : Number(value);
+                              return isNaN(num) ? value : `${(num * 100).toFixed(0)}%`;
+                            }} />
                             <Bar dataKey="correlation" fill="hsl(var(--primary))" />
                           </BarChart>
                         </ResponsiveContainer>
