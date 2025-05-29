@@ -117,7 +117,7 @@ export function HowItWorksSection() {
               <div className="flex-1 w-full md:w-auto">
                 <div className="rounded-lg overflow-hidden border shadow-lg bg-card">
                   <Image
-                    src={`https://images.pexels.com/photos/${4000 + index * 1000}/pexels-photo-${4000 + index * 1000}.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`}
+                    src={`/steps/step-${index}.webp`}
                     alt={`Step ${index + 1}: ${step.title}`}
                     width={600}
                     height={400}

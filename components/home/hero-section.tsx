@@ -76,7 +76,7 @@ export function HeroSection() {
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="inline-block h-8 w-8 rounded-full ring-2 ring-background overflow-hidden bg-muted">
                     <Image 
-                      src={`https://images.pexels.com/photos/415829/${3960 + i}-stock-photo-headshot-${i}.jpeg?auto=compress&cs=tinysrgb&w=800`} 
+                      src={`/users/user${i}.png`} 
                       alt={`User ${i}`} 
                       width={32} 
                       height={32}

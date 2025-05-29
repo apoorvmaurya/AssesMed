@@ -12,31 +12,31 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    content: "AssessMed has completely changed how I approach my health concerns. The predictions were surprisingly accurate and helped me get the right treatment much faster.",
-    author: "Emily Johnson",
+    content: "AssessMed has completely changed how I approach my healthcare. The predictions were surprisingly accurate and helped me get the right treatment much faster.",
+    author: "Priyanshu Agrahari",
     role: "Patient",
-    avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    avatar: "/testimonials/priyanshu.png",
     rating: 5
   },
   {
     content: "As a healthcare professional, I'm impressed by the accuracy of AssessMed's prediction algorithms. It's a valuable tool for initial patient assessment.",
-    author: "Dr. Michael Chen",
+    author: "Dr. Kavya Gupta",
     role: "General Practitioner",
-    avatar: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    rating: 4
+    avatar: "/testimonials/kavya.png",
+    rating: 5
   },
   {
     content: "The interface is incredibly user-friendly. I was able to input my symptoms quickly and received a detailed analysis that proved to be spot-on.",
-    author: "Sarah Williams",
+    author: "Sonali Singh",
     role: "Patient",
-    avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    avatar: "/testimonials/sonali.png",
     rating: 5
   },
   {
     content: "AssessMed helped me identify a condition that my doctor later confirmed. The early detection made a significant difference in my treatment options.",
-    author: "Robert Martinez",
+    author: "Harshit Chaudhary",
     role: "Patient",
-    avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    avatar: "/testimonials/harshit.png",
     rating: 5
   }
 ];
